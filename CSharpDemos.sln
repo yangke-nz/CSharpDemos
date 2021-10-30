@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{EA08154D-2D04-439B-A33A-9B1C7ABF05AD}"
 EndProject
@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventDelegate", "EventDeleg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{3D12186F-7E9B-40BB-AD6A-9564FA724D95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{3CB21D1B-861F-4C45-9E02-EF2DA0C7701B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{3CB21D1B-861F-4C45-9E02-EF2DA0C7701B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransientVsScoped", "TransientVsScoped\TransientVsScoped.csproj", "{721A3E07-7EE2-48DC-AE84-043287CC0B82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3CB21D1B-861F-4C45-9E02-EF2DA0C7701B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CB21D1B-861F-4C45-9E02-EF2DA0C7701B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CB21D1B-861F-4C45-9E02-EF2DA0C7701B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{721A3E07-7EE2-48DC-AE84-043287CC0B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721A3E07-7EE2-48DC-AE84-043287CC0B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721A3E07-7EE2-48DC-AE84-043287CC0B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721A3E07-7EE2-48DC-AE84-043287CC0B82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
